@@ -127,21 +127,32 @@ Open in browser:  http://127.0.0.1:8001/docs
 # Example API Response
 {
   "required_skills": ["python", "pandas"],
+  
   "matched_skills": ["python"],
+  
   "skill_score": 0.5,
+  
   "semantic_score": 0.72,
+  
   "final_score": 0.61,
+  
   "decision": "shortlisted"
 }
 
 
 # Technology Stack
 - Python
+  
 - FastAPI
+
 - scikit-learn
+
 - pdfplumber
+
 - Tesseract OCR
+
 - OpenCV
+
 - TF-IDF (NLP)
 
 
@@ -152,3 +163,15 @@ Open in browser:  http://127.0.0.1:8001/docs
 - Configurable scoring through UI
 - Cloud deployment with Docker
 - Dashboard and analytics
+
+
+
+
+# Project Status
+
+- `Core pipeline:` Completed
+- `API:` Completed
+- `Shortlisting logic:` Completed
+- `DOC/DOCX ingestion:` Planned
+- `LLM-based skill extraction:` Future scope
+- `Deployment:` Planned
