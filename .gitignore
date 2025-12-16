@@ -1,0 +1,53 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# --------------------
+# Virtual Environments
+# --------------------
+venv/
+.env/
+.env.*
+*.env
+conda-env/
+.resume_parser/
+anaconda3/
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Data & Uploads (IMPORTANT)
+# --------------------
+uploads/
+data/shortlisted/
+data/sample_resumes/
+data/sample_jd/
+
+# --------------------
+# OCR / Temp
+# --------------------
+*.tmp
+*.cache
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
